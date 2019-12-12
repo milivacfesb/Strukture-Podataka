@@ -111,7 +111,7 @@ int citajIzDatoteke(Pozicija P) {
 		while (tmp->Next != NULL && tmp->Next->eksponent > q->eksponent)
 			tmp = tmp->Next;
 
-		//ako imamo 2 jednaka eksponenta, zbrojit æemo im koeficijente
+		//ako imamo 2 jednaka eksponenta, zbrojit Ã¦emo im koeficijente
 
 		if (tmp->Next != NULL && tmp->Next->eksponent == q->eksponent){
 			tmp->Next->koeficijent += q->koeficijent;
