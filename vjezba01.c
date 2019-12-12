@@ -14,7 +14,7 @@ int main() {
 
 	f = fopen("studenti.txt", "r");
 	if (f == NULL) {
-		printf("Greöka pri otvaranju datoteke!\n");
+		printf("Gre≈°ka pri otvaranju datoteke!\n");
 		getchar();
 		exit(1);
 	}
